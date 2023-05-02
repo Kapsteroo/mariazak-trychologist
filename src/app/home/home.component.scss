@@ -1,0 +1,29 @@
+$laveder-color: #D8D4F2;
+$thistle-color: #C4B2BC;
+$beaver-color: #A29587;
+$coyote-color: #846C5B;
+$raisin-black-color: #332E3C;
+
+img {
+  object-fit: cover;
+  height: 758px;
+  opacity: 0.85;
+}
+
+.background-content {
+    position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.text-on-image {
+    color: $beaver-color;
+    font-size: 3.5rem;
+}

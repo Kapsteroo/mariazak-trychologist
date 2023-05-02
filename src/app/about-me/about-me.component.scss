@@ -1,0 +1,55 @@
+.container {
+  padding-right: 45px;
+  padding-left: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.image-column img {
+  float: left;
+}
+
+.image-column p {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 1.5;
+}
+
+.image-column h2 {
+  float:none;
+}
+
+.image-border {
+  border: 2px solid #ccc; /* Border width and color */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow */
+  margin-right: 25px;
+}
+
+.text-column {
+  width: 50%;
+}
+
+.diplomas-section {
+  margin-left: 17px;
+}
+
+.diplomas img {
+  max-height: 220px;
+}
+
+@media (min-width: 1350px) {
+  .container {
+    margin-top: 50px;
+    width: 1320px;
+  }
+}

@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+$laveder-color: #D8D4F2;
+$thistle-color: #C4B2BC;
+$beaver-color: #A29587;
+$coyote-color: #846C5B;
+$raisin-black-color: #332E3C;
+
+* {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: $coyote-color;
+  color: $laveder-color;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: $laveder-color;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: $thistle-color;
+}
+
+.active {
+  font-weight: bold;
+}

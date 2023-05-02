@@ -1,0 +1,11 @@
+<h1>Cennik</h1>
+<table>
+  <tr>
+    <th>Nazwa</th>
+    <th>Cena</th>
+  </tr>
+  <tr *ngFor="let usluga of this.cennik">
+    <td>{{usluga.nazwa}}</td>
+    <td>{{usluga.cena}} zł</td>
+  </tr>
+</table>
